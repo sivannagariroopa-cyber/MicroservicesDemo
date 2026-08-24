@@ -480,3 +480,29 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+# Visual Studio
+.vs/
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Test results
+TestResults/
+
+# Node
+node_modules/
+
+# Angular build
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Backup files
+*.backup

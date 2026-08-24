@@ -6,9 +6,9 @@
     <File Path="payment-service.yaml" />
     <File Path="product-service.yaml" />
   </Folder>
-  <Project Path="../../../../../../MicroservicesDemo/ApiGateway/ApiGateway.csproj" Id="e47b48f2-0f1e-407c-b7b1-0113728e2ef6" />
-  <Project Path="../../../../../../MicroservicesDemo/AuthService/AuthService.csproj" />
-  <Project Path="../../../../../../MicroservicesDemo/OrderService/OrderService.csproj" />
-  <Project Path="../../../../../../MicroservicesDemo/PaymentService/PaymentService.csproj" />
-  <Project Path="../../../../../../MicroservicesDemo/ProductService/ProductService.csproj" />
+  <Project Path="ApiGateway\ApiGateway.csproj" />
+  <Project Path="AuthService\AuthService.csproj" />
+  <Project Path="OrderService\OrderService.csproj" />
+  <Project Path="PaymentService\PaymentService.csproj" />
+  <Project Path="ProductService\ProductService.csproj" />
 </Solution>

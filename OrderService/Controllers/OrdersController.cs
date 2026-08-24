@@ -26,7 +26,6 @@ namespace OrderService.Controllers
             _productClient = productClient;
             _rabbitMqPublisher = rabbitMqPublisher;
         }
-//[HttpPost]
         //public async Task<IActionResult> CreateOrder(Order order)
         //{
         //    order.CreatedDate = DateTime.UtcNow;

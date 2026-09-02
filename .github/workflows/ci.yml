@@ -33,3 +33,9 @@ jobs:
 
       - name: Run tests
         run: dotnet test ./MicroservicesDemo.slnx --configuration Release --no-build
+
+      - name: Build OrderService Docker image
+        run: |
+          docker build \
+            -t order-service:${{ github.sha }} \
+            -f OrderService/Dockerfile .

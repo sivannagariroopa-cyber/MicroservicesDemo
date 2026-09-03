@@ -8,6 +8,7 @@
   </Folder>
   <Project Path="ApiGateway\ApiGateway.csproj" />
   <Project Path="AuthService\AuthService.csproj" />
+  <Project Path="OrderService.Tests/OrderService.Tests.csproj" />
   <Project Path="OrderService\OrderService.csproj" />
   <Project Path="PaymentService\PaymentService.csproj" />
   <Project Path="ProductService\ProductService.csproj" />
